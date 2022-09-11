@@ -10,7 +10,7 @@
 
   <p>画像</p>
   <% if list.image.attached? %>
-    <%= imag_tag list.image, size: "200*200" %>
+    <%= image_tag list.image, size: "200*200" %>
   <% else %>
     <%= image_tag 'no_image', size: "200*200" %>
   <% end %>
